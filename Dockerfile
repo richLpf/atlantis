@@ -11,4 +11,4 @@ RUN echo 'Asia/Shanghai' >/etc/timezone
 
 EXPOSE 9000
 
-CMD ["./testproject_linux_amd64", "-mode=prod"]
+CMD ["./testproject_linux_amd64 -mode=prod"]
