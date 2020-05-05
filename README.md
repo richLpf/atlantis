@@ -35,4 +35,8 @@ swag init
 
 ## dockerfile 构建
 
+这里需要注册个人的dockerhub账号，每次构建的镜像都推送到个人的dockerhub中，这样可以方便记录版本号和回退
+
+
+
 
