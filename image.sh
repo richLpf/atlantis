@@ -5,13 +5,13 @@ echo "当前环境"-$e
 app_name=atlantis
 version_num=$e
 
-default_registry=https://hub.docker.com/repository/docker
+default_registry=hub.docker.com/repository/docker
 default_project=lvpf/golang-project
 default_user=lpengfei66@163.com
 default_pwd=lpf12345@
 
 if [ "$e" != pre ]; then
-	default_registry=https://hub.docker.com/repository/docker
+	default_registry=hub.docker.com/repository/docker
 	default_user=lvpf
 fi
 
