@@ -2,7 +2,7 @@ FROM golang:1.12
 
 WORKDIR /go/src/app
 
-COPY /conf/* /go/src/app
+COPY . /go/src/app
 
 ADD ./testproject_linux_amd64 /go/src/app
 
