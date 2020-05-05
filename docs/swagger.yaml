@@ -1,0 +1,67 @@
+basePath: /
+definitions:
+  model.LoginReq:
+    properties:
+      Password:
+        type: string
+      Username:
+        type: string
+    type: object
+host: localhost:9000
+info:
+  contact:
+    email: support@swagger.io
+    name: API Support
+    url: http://www.swagger.io/support
+  description: This is a sample server Petstore server.
+  license: {}
+  title: Swagger Example API
+  version: "1.0"
+paths:
+  /ucloud/list:
+    get:
+      consumes:
+      - application/json
+      description: 描述信息
+      parameters:
+      - description: "20"
+        in: query
+        name: limit
+        type: string
+      - description: "0"
+        in: query
+        name: offset
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ok
+          schema:
+            type: string
+      summary: 列表实例
+      tags:
+      - 类别
+  /user/login:
+    post:
+      consumes:
+      - application/json
+      description: 登录
+      parameters:
+      - description: 请求参数
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.LoginReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ok
+          schema:
+            type: string
+      summary: 用户登录
+      tags:
+      - 类别
+swagger: "2.0"
