@@ -1,10 +1,10 @@
 package v1
 
 import (
-	res "go-project-init/common/response"
-	"go-project-init/services"
+	res "atlantis/common/response"
+	"atlantis/services"
 
-	utils "go-project-init/common/utils"
+	utils "atlantis/common/utils"
 
 	"github.com/gin-gonic/gin"
 )

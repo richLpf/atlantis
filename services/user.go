@@ -1,8 +1,8 @@
 package services
 
 import (
-	"go-project-init/dbs"
-	"go-project-init/model"
+	"atlantis/dbs"
+	"atlantis/model"
 )
 
 //UserCreate 添加用户

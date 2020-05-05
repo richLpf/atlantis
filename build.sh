@@ -12,7 +12,6 @@ build(){
     go build -o ${TARGET_FILE_NAME}_${GOOS}_${GOARCH}${EXT} \
     -v ${SOURCE_FILE_NAME}.go
     chmod +x ${tname}
-    docker build -t testdir .
 }
 
 #mac os

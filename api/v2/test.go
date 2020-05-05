@@ -1,7 +1,7 @@
 package v2
 
 import (
-	res "go-project-init/common/response"
+	res "atlantis/common/response"
 
 	"github.com/gin-gonic/gin"
 )

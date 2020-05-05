@@ -1,7 +1,7 @@
 package apirouter
 
 import (
-	v1 "go-project-init/api/v1"
+	v1 "atlantis/api/v1"
 
 	"github.com/gin-gonic/gin"
 )

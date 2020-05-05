@@ -2,8 +2,8 @@ package dbs
 
 import (
 	"fmt"
-	"go-project-init/conf"
-	"go-project-init/model"
+	"atlantis/conf"
+	"atlantis/model"
 
 	//mysql driver
 	_ "github.com/go-sql-driver/mysql"

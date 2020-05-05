@@ -1,4 +1,4 @@
-module go-project-init
+module atlantis
 
 go 1.12
 

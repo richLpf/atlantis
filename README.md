@@ -4,16 +4,24 @@
 > go创建go.md  project_dir 项目所在根目录
 
 ```
-go mod init project_dir
+go mod init atlantis
 ```
 
 ## 项目结构搭建
 
-|-- go-project-init
-	|-- core 应用层实现，领域层，数据访问层所有代码
-	|-- apis 存放用户接口层
-	|-- services  存放应用层接口
-
+```
+|-- atlantis
+	|-- api api层
+	|-- application 应用启动层
+	|-- services  数据库交互层
+	|-- docs swagger文档生成
+	|-- common  公用函数
+	|-- conf    读取配置文件
+	|-- dbs     数据库文件
+	|-- middleware  中间件
+	|-- model   数据模型
+	|-- router   路由层
+```
 
 ## 可能遇到的问题解决
 

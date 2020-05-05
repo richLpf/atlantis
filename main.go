@@ -1,8 +1,8 @@
 package main
 
 import (
-	_ "go-project-init/application"
-	_ "go-project-init/docs"
+	_ "atlantis/application"
+	_ "atlantis/docs"
 )
 
 // @title Swagger Example API

@@ -1,8 +1,8 @@
 package apirouter
 
 import (
-	"go-project-init/conf"
-	"go-project-init/middleware"
+	"atlantis/conf"
+	"atlantis/middleware"
 
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"

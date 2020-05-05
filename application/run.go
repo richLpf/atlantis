@@ -3,9 +3,9 @@ package application
 import (
 	"flag"
 	"fmt"
-	"go-project-init/conf"
-	"go-project-init/dbs"
-	apiRouter "go-project-init/router"
+	"atlantis/conf"
+	"atlantis/dbs"
+	apiRouter "atlantis/router"
 	"os"
 )
 
