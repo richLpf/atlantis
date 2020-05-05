@@ -6,7 +6,7 @@ app_name=atlantis
 version_num=$e
 
 default_registry=https://hub.docker.com/repository/docker
-default_project=/lvpf/golang-project
+default_project=lvpf/golang-project
 default_user=lpengfei66@163.com
 default_pwd=lpf12345@
 
