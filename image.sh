@@ -2,11 +2,11 @@
 e=$1
 
 echo "当前环境"-$e
-app_name=atlantis
+app_name=golang-project
 version_num=$e
 
 default_registry=hub.docker.com/repository/docker
-default_project=lvpf/golang-project
+default_project=lvpf
 default_user=lpengfei66@163.com
 default_pwd=lpf12345@
 
